@@ -1,6 +1,6 @@
 namespace Mauioke.Pages;
 
-public partial class Karaoke : ContentView
+public partial class Karaoke : ContentPage
 {
 	public Karaoke()
 	{

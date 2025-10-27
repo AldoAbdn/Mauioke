@@ -5,7 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Mauioke"
     xmlns:pages="clr-namespace:Mauioke.Pages"
-    Title="Mauioke">
+    Title="Mauioke"
+    FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Mauioke"
