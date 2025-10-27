@@ -20,7 +20,8 @@
 
             <Button
                 Text="Add Song"
-                SemanticProperties.Hint="Navigates to the next page" />
+                SemanticProperties.Hint="Navigates to the next page"
+                Clicked="AddSong"/>
 
             <components:SongPicker/>
 

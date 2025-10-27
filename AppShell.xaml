@@ -4,10 +4,27 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Mauioke"
+    xmlns:pages="clr-namespace:Mauioke.Pages"
     Title="Mauioke">
 
     <ShellContent
+        Title="Mauioke"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"/>
+
+    <ShellContent
+        Title="Add Song"
+        ContentTemplate="{DataTemplate pages:EditSong}"
+        Route="AddSong"/>
+
+    <ShellContent
+        Title="Edit Song"
+        ContentTemplate="{DataTemplate pages:EditSong}"
+        Route="EditSong"/>
+
+    <ShellContent
+        Title="Karaoke"
+        ContentTemplate="{DataTemplate pages:Karaoke}"
+        Route="Karaoke"/>
 
 </Shell>
