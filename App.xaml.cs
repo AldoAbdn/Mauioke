@@ -9,13 +9,7 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new AppShell());
-        }
-
-        protected override async void OnStart()
-        {
-            await Shell.Current.GoToAsync("//MainPage");
-            base.OnStart();
+            return new Window(new NavigationPage(new MainPage()));
         }
     }
 }

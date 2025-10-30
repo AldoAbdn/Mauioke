@@ -11,7 +11,7 @@ namespace Mauioke
 
         private async void AddSong(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("//AddSong");
+            await Navigation.PushAsync(new AddSong());
         }
     }
 }
