@@ -12,5 +12,7 @@ namespace Mauioke.ViewModel
         public SongCardViewModel(SongDto song) {
             this.song = song;
         }
+
+        internal SongDto SongDto => song;
     }
 }

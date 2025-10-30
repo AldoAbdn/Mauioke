@@ -6,6 +6,7 @@
     <CollectionView
         x:Name="SongsCollectionView"
         SelectionMode="Single"
+        SelectionChanged="SelectionChanged"
         ItemsSource="{Binding Songs, Mode=OneWay}">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="viewmodel:SongCardViewModel">
