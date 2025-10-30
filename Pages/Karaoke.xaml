@@ -5,8 +5,17 @@
              Title="Karaoke">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="{Binding DisplayTitle}"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
+        <Image
+            Source="{Binding ImagePath}"
+            Aspect="AspectFill"
+            HeightRequest="200"
+            WidthRequest="200"/>
+        <Label 
+            Text="{Binding Lyrics}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>
